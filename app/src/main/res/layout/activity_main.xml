@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="lijingqian.example.lenovo.ljq_1128_rikao.MainActivity">
+
+
+
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/user"
+        android:hint="请输入您的用户名"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/pawss"
+        android:hint="请输入您的密码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="登录"
+            android:id="@+id/denglu"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="注册"
+            android:id="@+id/zhuce"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
